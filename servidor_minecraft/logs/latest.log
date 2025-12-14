@@ -1,0 +1,195 @@
+[14Dec2025 19:24:50.939] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[14Dec2025 19:24:50.941] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04
+[14Dec2025 19:24:50.941] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.9 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[14Dec2025 19:24:51.480] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[14Dec2025 19:24:51.618] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/fafafa/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[14Dec2025 19:24:52.197] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[14Dec2025 19:24:52.203] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[14Dec2025 19:24:52.217] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFile/]: Mod file journeymap-1.20.1-5.10.0-forge.jar contains javascript coremods! JS CoreMods are deprecated and will be removed in a future release. Consider using Mixin or ModLauncher transformers.
+[14Dec2025 19:24:52.257] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'minecraft', Requested by: 'cerbons_api', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'bosses_of_mass_destruction', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'realmrpg_demons', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'fossil', Expected range: '[1.20.1,1.20.2)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'seadwellers', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'taxva', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'netherdungeons', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'endrem', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'orcz', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'justenoughbreeding', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'mvs', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'spartanshields', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'puzzlesaccessapi', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'dungeonnowloading', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'jei', Expected range: '[1.20.1,1.20.2)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'curios', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'endreborn', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'realmrpg_skeletons', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'iter_rpg', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'spartanweaponry', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'morehitboxes', Expected range: '[1.20.1,1.20.2)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'integrated_api', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'taxcp', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'epicfight', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'betterskills', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'gravestone', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'philipsruins', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'morevillagers', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'ants_unleashed', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'swampier_swamps', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'ambientsounds', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'puzzleslib', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'travelersbackpack', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'born_in_chaos_v1', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'mirabilis', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'visualworkbench', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'morevanillashields', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'creativecore', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'valhelsia_furniture', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+[14Dec2025 19:24:52.506] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[14Dec2025 19:24:57.909] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §ecerbons_api§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:90) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoader$LazyInit.<clinit>(ModLoader.java:133) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoader.get(ModLoader.java:129) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at TRANSFORMER/net.minecraftforge.forge@60.0.0/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.21.10-60.0.0-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.Main.main(Main.java:132) ~[forge-1.21.10-60.0.0-server.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.10-60.0.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.10-60.0.0.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.10-60.0.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.10-60.0.0.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:101) [forge-1.21.10-60.0.0-shim.jar:2.1.8]
+[14Dec2025 19:24:58.000] [main/ERROR] [net.minecraft.CrashReport/]: Negative index in crash report handler (21/23)
+[14Dec2025 19:24:58.035] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-12-14_19.24.58-fml.txt
+[14Dec2025 19:24:58.040] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §ecerbons_api§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ebosses_of_mass_destruction§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §erealmrpg_demons§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §efossil§r requires §6minecraft§r §o1.20.1 or above, and below 1.20.2§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eseadwellers§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §etaxva§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §enetherdungeons§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eendrem§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eorcz§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ejustenoughbreeding§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emvs§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §espartanshields§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §epuzzlesaccessapi§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §edungeonnowloading§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ejei§r requires §6minecraft§r §o1.20.1 or above, and below 1.20.2§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ecurios§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eendreborn§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §erealmrpg_skeletons§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eiter_rpg§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §espartanweaponry§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emorehitboxes§r requires §6minecraft§r §o1.20.1 or above, and below 1.20.2§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eintegrated_api§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §etaxcp§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eepicfight§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ebetterskills§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §egravestone§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ephilipsruins§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emorevillagers§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eants_unleashed§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eswampier_swamps§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eambientsounds§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §epuzzleslib§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §etravelersbackpack§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eborn_in_chaos_v1§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emirabilis§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §evisualworkbench§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emorevanillashields§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ecreativecore§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §evalhelsia_furniture§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10
+]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:155) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at TRANSFORMER/net.minecraftforge.forge@60.0.0/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.21.10-60.0.0-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.Main.main(Main.java:132) ~[forge-1.21.10-60.0.0-server.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.10-60.0.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.10-60.0.0.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.10-60.0.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.10-60.0.0.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:101) [forge-1.21.10-60.0.0-shim.jar:2.1.8]

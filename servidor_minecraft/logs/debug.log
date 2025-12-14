@@ -1,0 +1,1059 @@
+[14Dec2025 19:24:50.939] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[14Dec2025 19:24:50.941] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04
+[14Dec2025 19:24:50.941] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.9 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[14Dec2025 19:24:50.961] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forge_userdev_server_gametest,forge_dev_client,forge_userdev_data,forge_dev_server_gametest,forge_dev_client_data,forge_userdev_server,forge_client,forge_server,forge_userdev_client_data,forge_userdev_client,forge_dev_data,forge_dev,testharness,forge_userdev,forge_dev_server]
+[14Dec2025 19:24:50.969] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[14Dec2025 19:24:50.976] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[14Dec2025 19:24:50.982] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[14Dec2025 19:24:50.984] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/fafafa/servidor_minecraft
+[14Dec2025 19:24:50.984] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/fafafa/servidor_minecraft/mods
+[14Dec2025 19:24:50.984] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/fafafa/servidor_minecraft/config
+[14Dec2025 19:24:50.984] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/fafafa/servidor_minecraft/config/fml.toml
+[14Dec2025 19:24:51.480] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[14Dec2025 19:24:51.514] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: fml: /
+[14Dec2025 19:24:51.515] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: forge: /
+[14Dec2025 19:24:51.516] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: mixin: /
+[14Dec2025 19:24:51.517] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[14Dec2025 19:24:51.517] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[14Dec2025 19:24:51.517] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[14Dec2025 19:24:51.517] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[14Dec2025 19:24:51.529] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Detected version data : VersionInfo[forgeVersion=60.0.0, mcVersion=1.21.10, mcpVersion=20251007.101210, forgeGroup=net.minecraftforge]
+[14Dec2025 19:24:51.530] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 60.0.0
+[14Dec2025 19:24:51.530] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 60.0.0 loading
+[14Dec2025 19:24:51.530] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ModLauncher version: 10.2.4
+[14Dec2025 19:24:51.530] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found AccessTransformer version: 8.2.2
+[14Dec2025 19:24:51.530] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found RuntimeDistCleaner version: 60.0.0
+[14Dec2025 19:24:51.532] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.2.6
+[14Dec2025 19:24:51.532] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI version: 7.1.5
+[14Dec2025 19:24:51.532] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[14Dec2025 19:24:51.532] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service forge
+[14Dec2025 19:24:51.533] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service forge
+[14Dec2025 19:24:51.533] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[14Dec2025 19:24:51.538] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[14Dec2025 19:24:51.538] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[14Dec2025 19:24:51.605] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in SecureModuleClassLoader[SECURE-BOOTSTRAP]@1943325854
+[14Dec2025 19:24:51.618] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/fafafa/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[14Dec2025 19:24:51.622] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[14Dec2025 19:24:51.623] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2025 19:24:51.623] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2025 19:24:51.624] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2025 19:24:51.624] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2025 19:24:51.625] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2025 19:24:51.626] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[14Dec2025 19:24:51.627] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[14Dec2025 19:24:51.627] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[14Dec2025 19:24:51.628] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/fafafa/servidor_minecraft
+[14Dec2025 19:24:51.628] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/fafafa/servidor_minecraft/mods
+[14Dec2025 19:24:51.628] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/fafafa/servidor_minecraft/config
+[14Dec2025 19:24:51.628] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/fafafa/servidor_minecraft/config/fml.toml
+[14Dec2025 19:24:51.629] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[14Dec2025 19:24:51.632] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[14Dec2025 19:24:51.634] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[14Dec2025 19:24:51.634] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forge_server as launch service
+[14Dec2025 19:24:51.639] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[14Dec2025 19:24:51.639] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service forge
+[14Dec2025 19:24:51.640] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service forge
+[14Dec2025 19:24:51.640] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[14Dec2025 19:24:51.640] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=net.minecraftforge.fml.loading.MCPNamingService@4fdf8f12}
+[14Dec2025 19:24:51.640] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[14Dec2025 19:24:51.641] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[14Dec2025 19:24:51.641] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[14Dec2025 19:24:51.642] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[14Dec2025 19:24:51.642] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[14Dec2025 19:24:51.650] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(minecraft:null),(classpath:null),(forge_dev_locator:null),(forge_userdev_locator:null)
+[14Dec2025 19:24:51.651] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[14Dec2025 19:24:51.655] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/smallships-forge-1.20.1-2.0.0-b1.3.1.jar
+[14Dec2025 19:24:51.682] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file smallships-forge-1.20.1-2.0.0-b1.3.1.jar with {smallships} mods - versions {2.0.0-b1.3.1}
+[14Dec2025 19:24:51.684] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar
+[14Dec2025 19:24:51.685] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar with {hopour} mods - versions {1.1.4}
+[14Dec2025 19:24:51.686] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/valhelsia_core-forge-1.20.1-1.1.2.jar
+[14Dec2025 19:24:51.688] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file valhelsia_core-forge-1.20.1-1.1.2.jar with {valhelsia_core} mods - versions {1.1.2}
+[14Dec2025 19:24:51.700] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-4.jar
+[14Dec2025 19:24:51.706] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file iceandfire-2.1.13-1.20.1-beta-4.jar with {iceandfire} mods - versions {2.1.13-1.20.1-beta-4}
+[14Dec2025 19:24:51.709] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar
+[14Dec2025 19:24:51.711] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file citadel-2.5.4-1.20.1.jar with {citadel} mods - versions {2.5.4}
+[14Dec2025 19:24:51.713] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/SpartanShields-1.20.1-forge-3.1.1.jar
+[14Dec2025 19:24:51.714] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file SpartanShields-1.20.1-forge-3.1.1.jar with {spartanshields} mods - versions {3.1.1}
+[14Dec2025 19:24:51.715] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/CerbonsApi-Forge-1.20.1-1.0.0.jar
+[14Dec2025 19:24:51.716] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CerbonsApi-Forge-1.20.1-1.0.0.jar with {cerbons_api} mods - versions {1.0.0}
+[14Dec2025 19:24:51.720] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar
+[14Dec2025 19:24:51.723] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.20.1-forge-15.3.0.7.jar with {jei} mods - versions {15.3.0.7}
+[14Dec2025 19:24:51.724] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/HopoBetterRuinedPortals-[1.20-1.20.2]-1.3.7.jar
+[14Dec2025 19:24:51.724] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file HopoBetterRuinedPortals-[1.20-1.20.2]-1.3.7.jar with {hoporp} mods - versions {1.3.7}
+[14Dec2025 19:24:51.725] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/justenoughbreeding-forge-1.20.x-1.2.1.jar
+[14Dec2025 19:24:51.727] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file justenoughbreeding-forge-1.20.x-1.2.1.jar with {justenoughbreeding} mods - versions {1.2.1}
+[14Dec2025 19:24:51.729] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/VisualWorkbench-v8.0.0-1.20.1-Forge.jar
+[14Dec2025 19:24:51.730] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file VisualWorkbench-v8.0.0-1.20.1-Forge.jar with {visualworkbench} mods - versions {8.0.0}
+[14Dec2025 19:24:51.732] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/BOMD-Forge-1.20.1-1.1.1.jar
+[14Dec2025 19:24:51.734] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BOMD-Forge-1.20.1-1.1.1.jar with {bosses_of_mass_destruction} mods - versions {1.1.1}
+[14Dec2025 19:24:51.737] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/xenon-0.3.19+mc1.20.1.jar
+[14Dec2025 19:24:51.739] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file xenon-0.3.19+mc1.20.1.jar with {xenon,rubidium,embeddium} mods - versions {0.3.19+mc1.20.1,0.7.1,0.3.19+mc1.20.1}
+[14Dec2025 19:24:51.740] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/cupboard-1.20.1-2.7.jar
+[14Dec2025 19:24:51.741] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cupboard-1.20.1-2.7.jar with {cupboard} mods - versions {1.20.1-2.7}
+[14Dec2025 19:24:51.746] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/EpicFight-20.7.4.jar
+[14Dec2025 19:24:51.747] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file EpicFight-20.7.4.jar with {epicfight} mods - versions {20.7.4}
+[14Dec2025 19:24:51.750] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/netherdungeons-1.1.0-snapshot3a.jar
+[14Dec2025 19:24:51.751] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file netherdungeons-1.1.0-snapshot3a.jar with {netherdungeons} mods - versions {1.1.0-snapshot3a}
+[14Dec2025 19:24:51.756] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/L_Enders_Cataclysm-1.99.6-1.20.1.jar
+[14Dec2025 19:24:51.757] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file L_Enders_Cataclysm-1.99.6-1.20.1.jar with {cataclysm} mods - versions {1.99.5}
+[14Dec2025 19:24:51.759] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.16.jar
+[14Dec2025 19:24:51.760] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file gravestone-forge-1.20.1-1.0.16.jar with {gravestone} mods - versions {1.20.1-1.0.16}
+[14Dec2025 19:24:51.761] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/ftb-essentials-forge-2001.2.3.jar
+[14Dec2025 19:24:51.762] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ftb-essentials-forge-2001.2.3.jar with {ftbessentials} mods - versions {2001.2.3}
+[14Dec2025 19:24:51.765] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar
+[14Dec2025 19:24:51.766] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file The_Graveyard_3.1_(FORGE)_for_1.20.1.jar with {graveyard} mods - versions {3.1}
+[14Dec2025 19:24:51.767] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar
+[14Dec2025 19:24:51.768] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-forge-5.9.1+1.20.1.jar with {curios} mods - versions {5.9.1+1.20.1}
+[14Dec2025 19:24:51.770] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/crittersandcompanions-1.20.1-2.1.6.jar
+[14Dec2025 19:24:51.771] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file crittersandcompanions-1.20.1-2.1.6.jar with {crittersandcompanions} mods - versions {1.20.1-2.1.6}
+[14Dec2025 19:24:51.772] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/morehitboxes-forge-1.20.1-1.9.2.jar
+[14Dec2025 19:24:51.773] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file morehitboxes-forge-1.20.1-1.9.2.jar with {morehitboxes} mods - versions {1.9.2}
+[14Dec2025 19:24:51.774] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/ants-1.20.1-forge-ver2.2.jar
+[14Dec2025 19:24:51.775] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ants-1.20.1-forge-ver2.2.jar with {ants_unleashed} mods - versions {1.0.0}
+[14Dec2025 19:24:51.780] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/Dungeon Now Loading-forge-1.20.1-2.0.jar
+[14Dec2025 19:24:51.781] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Dungeon Now Loading-forge-1.20.1-2.0.jar with {dungeonnowloading} mods - versions {2.0}
+[14Dec2025 19:24:51.790] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/PuzzlesLib-v8.1.21-1.20.1-Forge.jar
+[14Dec2025 19:24:51.791] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file PuzzlesLib-v8.1.21-1.20.1-Forge.jar with {puzzleslib} mods - versions {8.1.21}
+[14Dec2025 19:24:51.793] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/morevillagers-forge-1.20.1-5.0.0.jar
+[14Dec2025 19:24:51.794] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file morevillagers-forge-1.20.1-5.0.0.jar with {morevillagers} mods - versions {5.0.0}
+[14Dec2025 19:24:51.801] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/SpartanWeaponry-1.20.1-forge-3.1.0-beta-1-all.jar
+[14Dec2025 19:24:51.802] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file SpartanWeaponry-1.20.1-forge-3.1.0-beta-1-all.jar with {spartanweaponry} mods - versions {3.1.0-beta-1}
+[14Dec2025 19:24:51.809] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/alexsmobs-1.22.7.jar
+[14Dec2025 19:24:51.811] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alexsmobs-1.22.7.jar with {alexsmobs} mods - versions {1.22.7}
+[14Dec2025 19:24:51.814] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/Orcz_0.87_1.20.1.jar
+[14Dec2025 19:24:51.814] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Orcz_0.87_1.20.1.jar with {orcz} mods - versions {0.82}
+[14Dec2025 19:24:51.817] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar
+[14Dec2025 19:24:51.818] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file naturalist-forge-4.0.3-1.20.1.jar with {naturalist} mods - versions {4.0.3}
+[14Dec2025 19:24:51.820] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/Better Skills 1.8.1 [1.20.1].jar
+[14Dec2025 19:24:51.820] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Better Skills 1.8.1 [1.20.1].jar with {betterskills} mods - versions {1.8.1}
+[14Dec2025 19:24:51.822] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/TaxVillageArchitect+M.1.20.1+ForM.1.1.1.jar
+[14Dec2025 19:24:51.823] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TaxVillageArchitect+M.1.20.1+ForM.1.1.1.jar with {taxva} mods - versions {1.1.1}
+[14Dec2025 19:24:51.824] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/morevanillashields-1.1.0-1.20.1.jar
+[14Dec2025 19:24:51.825] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file morevanillashields-1.1.0-1.20.1.jar with {morevanillashields} mods - versions {1.1.0-1.20.1}
+[14Dec2025 19:24:51.827] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/mvs-4.1.2-1.20-forge.jar
+[14Dec2025 19:24:51.828] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mvs-4.1.2-1.20-forge.jar with {mvs} mods - versions {4.1.2-1.20-forge}
+[14Dec2025 19:24:51.830] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/architectury-9.2.14-forge.jar
+[14Dec2025 19:24:51.831] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-9.2.14-forge.jar with {architectury} mods - versions {9.2.14}
+[14Dec2025 19:24:51.838] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/journeymap-1.20.1-5.10.0-forge.jar
+[14Dec2025 19:24:51.839] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file journeymap-1.20.1-5.10.0-forge.jar with {journeymap} mods - versions {5.10.0}
+[14Dec2025 19:24:51.844] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/iter_rpg-0.7.0b-forge-1.20.1.jar
+[14Dec2025 19:24:51.845] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file iter_rpg-0.7.0b-forge-1.20.1.jar with {iter_rpg} mods - versions {0.7.0}
+[14Dec2025 19:24:51.858] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/valhelsia_furniture-forge-1.20.1-1.1.3.jar
+[14Dec2025 19:24:51.860] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file valhelsia_furniture-forge-1.20.1-1.1.3.jar with {valhelsia_furniture} mods - versions {1.1.3}
+[14Dec2025 19:24:51.861] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar
+[14Dec2025 19:24:51.862] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar with {realmrpg_skeletons} mods - versions {1.0.3}
+[14Dec2025 19:24:51.865] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/legendarymonsters-1.9.8 MC 1.20.1.jar
+[14Dec2025 19:24:51.866] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file legendarymonsters-1.9.8 MC 1.20.1.jar with {legendary_monsters} mods - versions {1.20.1}
+[14Dec2025 19:24:51.866] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar
+[14Dec2025 19:24:51.867] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar with {realmrpg_demons} mods - versions {0.9.0}
+[14Dec2025 19:24:51.868] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/Philips-Ruins1.20.1-4.2.jar
+[14Dec2025 19:24:51.869] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Philips-Ruins1.20.1-4.2.jar with {philipsruins} mods - versions {4.1}
+[14Dec2025 19:24:51.873] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.7.2.jar
+[14Dec2025 19:24:51.874] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file born_in_chaos_[Forge]1.20.1_1.7.2.jar with {born_in_chaos_v1} mods - versions {1.7.2}
+[14Dec2025 19:24:51.875] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/swampier_swamps-1.20-4.0.0.jar
+[14Dec2025 19:24:51.876] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file swampier_swamps-1.20-4.0.0.jar with {swampier_swamps} mods - versions {1.20-4.0.0}
+[14Dec2025 19:24:51.876] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar
+[14Dec2025 19:24:51.877] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar with {ambientsounds} mods - versions {6.0.3}
+[14Dec2025 19:24:51.878] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/illagersweararmor-1.20.1-1.3.4.jar
+[14Dec2025 19:24:51.878] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file illagersweararmor-1.20.1-1.3.4.jar with {zillagersweararmor} mods - versions {1.20.1-1.3.4}
+[14Dec2025 19:24:51.883] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar
+[14Dec2025 19:24:51.883] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cloth-config-11.1.118-forge.jar with {cloth_config} mods - versions {11.1.118}
+[14Dec2025 19:24:51.884] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/realmrpg_seadwellers_2.9.9_forge_1.20.1.jar
+[14Dec2025 19:24:51.885] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file realmrpg_seadwellers_2.9.9_forge_1.20.1.jar with {seadwellers} mods - versions {2.9.9}
+[14Dec2025 19:24:51.886] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/endrem_forge-5.2.3-R-1.20.X.jar
+[14Dec2025 19:24:51.886] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file endrem_forge-5.2.3-R-1.20.X.jar with {endrem} mods - versions {5.2.3-R-1.20.1}
+[14Dec2025 19:24:51.887] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/endorium-forge-1.1.3.jar
+[14Dec2025 19:24:51.888] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file endorium-forge-1.1.3.jar with {endreborn} mods - versions {1.1.3}
+[14Dec2025 19:24:51.889] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/lionfishapi-1.9.jar
+[14Dec2025 19:24:51.890] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file lionfishapi-1.9.jar with {lionfishapi} mods - versions {1.9}
+[14Dec2025 19:24:51.890] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.7.jar
+[14Dec2025 19:24:51.891] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TerraBlender-forge-1.20.1-3.0.1.7.jar with {terrablender} mods - versions {3.0.1.7}
+[14Dec2025 19:24:51.892] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/brutalbosses-1.20.1-7.0.jar
+[14Dec2025 19:24:51.893] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file brutalbosses-1.20.1-7.0.jar with {brutalbosses} mods - versions {1.20.1-7.0}
+[14Dec2025 19:24:51.897] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/BiomesOPlenty-1.20.1-18.0.0.592.jar
+[14Dec2025 19:24:51.898] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BiomesOPlenty-1.20.1-18.0.0.592.jar with {biomesoplenty} mods - versions {18.0.0.592}
+[14Dec2025 19:24:51.899] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/BloodAndMadness-Forge1.20.1-v2.1.5.2.jar
+[14Dec2025 19:24:51.900] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BloodAndMadness-Forge1.20.1-v2.1.5.2.jar with {bloodandmadness} mods - versions {2.0}
+[14Dec2025 19:24:51.903] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/ftb-library-forge-2001.2.10.jar
+[14Dec2025 19:24:51.904] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ftb-library-forge-2001.2.10.jar with {ftblibrary} mods - versions {2001.2.10}
+[14Dec2025 19:24:51.905] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.14.jar
+[14Dec2025 19:24:51.906] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file travelersbackpack-forge-1.20.1-9.1.14.jar with {travelersbackpack} mods - versions {9.1.14}
+[14Dec2025 19:24:51.907] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/TaxCastlePillager+M.1.20.1+ForM.1.0.1.jar
+[14Dec2025 19:24:51.907] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TaxCastlePillager+M.1.20.1+ForM.1.0.1.jar with {taxcp} mods - versions {1.0.1}
+[14Dec2025 19:24:51.910] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/forbidden_arcanus-1.20.1-2.2.6.jar
+[14Dec2025 19:24:51.911] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forbidden_arcanus-1.20.1-2.2.6.jar with {forbidden_arcanus} mods - versions {1.20.1-2.2.6}
+[14Dec2025 19:24:51.911] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/mirabilis-1.1.1-1.20.1.jar
+[14Dec2025 19:24:51.912] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mirabilis-1.1.1-1.20.1.jar with {mirabilis} mods - versions {1.1.1}
+[14Dec2025 19:24:51.912] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/riskofrain_mobs-1.20.1-1.1.2.jar
+[14Dec2025 19:24:51.913] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file riskofrain_mobs-1.20.1-1.1.2.jar with {riskofrain_mobs} mods - versions {1.1.2}
+[14Dec2025 19:24:51.914] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.31_mc1.20.1.jar
+[14Dec2025 19:24:51.915] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file CreativeCore_FORGE_v2.11.31_mc1.20.1.jar with {creativecore} mods - versions {2.11.31}
+[14Dec2025 19:24:51.915] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/integrated_api-1.5.1+1.20.1-forge.jar
+[14Dec2025 19:24:51.916] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file integrated_api-1.5.1+1.20.1-forge.jar with {integrated_api} mods - versions {1.5.1+1.20.1-forge}
+[14Dec2025 19:24:51.917] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar
+[14Dec2025 19:24:51.917] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-forge-1.20.1-4.4.7.jar with {geckolib} mods - versions {4.4.7}
+[14Dec2025 19:24:51.920] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/GrimoireOfGaia4-1.20.1-4.0.0-alpha.10.jar
+[14Dec2025 19:24:51.920] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file GrimoireOfGaia4-1.20.1-4.0.0-alpha.10.jar with {grimoireofgaia} mods - versions {4.0.0-alpha.10}
+[14Dec2025 19:24:51.927] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/mods/fossil-forge-1.20.1-9.2.1.3.jar
+[14Dec2025 19:24:51.928] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file fossil-forge-1.20.1-9.2.1.3.jar with {fossil} mods - versions {9.2.1.3}
+[14Dec2025 19:24:51.946] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.10-60.0.0-server.jar with {minecraft} mods - versions {1.21.10}
+[14Dec2025 19:24:51.988] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/fafafa/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.10-60.0.0/forge-1.21.10-60.0.0-universal.jar
+[14Dec2025 19:24:51.988] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.10-60.0.0-universal.jar with {forge} mods - versions {60.0.0}
+[14Dec2025 19:24:51.999] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from ftb-essentials-forge-2001.2.3.jar, it does not contain dependency information.
+[14Dec2025 19:24:51.999] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from TaxVillageArchitect+M.1.20.1+ForM.1.1.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:51.999] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from Better Skills 1.8.1 [1.20.1].jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from ftb-library-forge-2001.2.10.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from alexsmobs-1.22.7.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from riskofrain_mobs-1.20.1-1.1.2.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from jei-1.20.1-forge-15.3.0.7.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from naturalist-forge-4.0.3-1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from ants-1.20.1-forge-ver2.2.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from The_Graveyard_3.1_(FORGE)_for_1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from valhelsia_furniture-forge-1.20.1-1.1.3.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.000] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from EpicFight-20.7.4.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from journeymap-1.20.1-5.10.0-forge.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from Dungeon Now Loading-forge-1.20.1-2.0.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from citadel-2.5.4-1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from travelersbackpack-forge-1.20.1-9.1.14.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mirabilis-1.1.1-1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from GrimoireOfGaia4-1.20.1-4.0.0-alpha.10.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from iceandfire-2.1.13-1.20.1-beta-4.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.21.10-60.0.0.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.001] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from Orcz_0.87_1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from BOMD-Forge-1.20.1-1.1.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from swampier_swamps-1.20-4.0.0.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from morevanillashields-1.1.0-1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from cloth-config-11.1.118-forge.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.21.10-60.0.0-universal.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from iter_rpg-0.7.0b-forge-1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.21.10-60.0.0.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.002] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from illagersweararmor-1.20.1-1.3.4.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.003] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.21.10-60.0.0-server.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.003] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from morevillagers-forge-1.20.1-5.0.0.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.003] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from TerraBlender-forge-1.20.1-3.0.1.7.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.003] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.003] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from BloodAndMadness-Forge1.20.1-v2.1.5.2.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.004] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from netherdungeons-1.1.0-snapshot3a.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.004] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.21.10-60.0.0.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.004] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from TaxCastlePillager+M.1.20.1+ForM.1.0.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.004] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from BiomesOPlenty-1.20.1-18.0.0.592.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.004] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from endrem_forge-5.2.3-R-1.20.X.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.21.10-60.0.0.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from justenoughbreeding-forge-1.20.x-1.2.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from CreativeCore_FORGE_v2.11.31_mc1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from HopoBetterRuinedPortals-[1.20-1.20.2]-1.3.7.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forbidden_arcanus-1.20.1-2.2.6.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from born_in_chaos_[Forge]1.20.1_1.7.2.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lionfishapi-1.9.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.005] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from Philips-Ruins1.20.1-4.2.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from curios-forge-5.9.1+1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from L_Enders_Cataclysm-1.99.6-1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from brutalbosses-1.20.1-7.0.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from SpartanShields-1.20.1-forge-3.1.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from gravestone-forge-1.20.1-1.0.16.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from CerbonsApi-Forge-1.20.1-1.0.0.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from realmrpg_seadwellers_2.9.9_forge_1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from legendarymonsters-1.9.8 MC 1.20.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.006] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from endorium-forge-1.1.3.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.007] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from crittersandcompanions-1.20.1-2.1.6.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.007] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from architectury-9.2.14-forge.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.007] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mvs-4.1.2-1.20-forge.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.007] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from cupboard-1.20.1-2.7.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.007] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from smallships-forge-1.20.1-2.0.0-b1.3.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.007] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from valhelsia_core-forge-1.20.1-1.1.2.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.043] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[14Dec2025 19:24:52.045] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file puzzlesaccessapi-forge-8.0.7.jar with {puzzlesaccessapi} mods - versions {8.0.7}
+[14Dec2025 19:24:52.050] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[14Dec2025 19:24:52.051] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.3.5.jar with {mixinextras} mods - versions {0.3.5}
+[14Dec2025 19:24:52.055] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[14Dec2025 19:24:52.055] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.2.0-beta.7.jar with {mixinextras} mods - versions {0.2.0-beta.7}
+[14Dec2025 19:24:52.060] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[14Dec2025 19:24:52.062] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.4.1.jar with {mixinextras} mods - versions {0.4.1}
+[14Dec2025 19:24:52.075] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[14Dec2025 19:24:52.076] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.3.5.jar with {mixinextras} mods - versions {0.3.5}
+[14Dec2025 19:24:52.079] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[14Dec2025 19:24:52.080] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.4.1.jar with {mixinextras} mods - versions {0.4.1}
+[14Dec2025 19:24:52.103] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclib-20.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.119] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from MixinExtras-0.3.5.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.119] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from MixinExtras-0.2.0-beta.7.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.119] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from MixinExtras-0.4.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.120] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from MixinExtras-0.3.5.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.120] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from MixinExtras-0.4.1.jar, it does not contain dependency information.
+[14Dec2025 19:24:52.164] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[14Dec2025 19:24:52.169] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file puzzlesaccessapi-forge-8.0.7.jar with {puzzlesaccessapi} mods - versions {8.0.7}
+[14Dec2025 19:24:52.183] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[14Dec2025 19:24:52.185] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.4.1.jar with {mixinextras} mods - versions {0.4.1}
+[14Dec2025 19:24:52.187] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[14Dec2025 19:24:52.187] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.2.0-beta.7.jar with {mixinextras} mods - versions {0.2.0-beta.7}
+[14Dec2025 19:24:52.197] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[14Dec2025 19:24:52.203] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[14Dec2025 19:24:52.211] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/ftb-essentials-forge-2001.2.3.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/Better Skills 1.8.1 [1.20.1].jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/TaxVillageArchitect+M.1.20.1+ForM.1.1.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/alexsmobs-1.22.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/ftb-library-forge-2001.2.10.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/xenon-0.3.19+mc1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/riskofrain_mobs-1.20.1-1.1.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/VisualWorkbench-v8.0.0-1.20.1-Forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[37,)]]
+[14Dec2025 19:24:52.213] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/ants-1.20.1-forge-ver2.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.214] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[14Dec2025 19:24:52.214] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/valhelsia_furniture-forge-1.20.1-1.1.3.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.214] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.214] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/EpicFight-20.7.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2025 19:24:52.214] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/Dungeon Now Loading-forge-1.20.1-2.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.214] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/journeymap-1.20.1-5.10.0-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[44,)]]
+[14Dec2025 19:24:52.216] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod journeymap potion effect transformer with Javascript path potion-effects-shift.js
+[14Dec2025 19:24:52.217] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFile/]: Mod file journeymap-1.20.1-5.10.0-forge.jar contains javascript coremods! JS CoreMods are deprecated and will be removed in a future release. Consider using Mixin or ModLauncher transformers.
+[14Dec2025 19:24:52.217] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod /potion-effects-shift.js
+[14Dec2025 19:24:52.217] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.217] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/integrated_api-1.5.1+1.20.1-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[14Dec2025 19:24:52.218] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.14.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.218] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/mirabilis-1.1.1-1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.218] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[14Dec2025 19:24:52.218] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/GrimoireOfGaia4-1.20.1-4.0.0-alpha.10.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.218] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/fossil-forge-1.20.1-9.2.1.3.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.218] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[37.0,)]]
+[14Dec2025 19:24:52.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/morehitboxes-forge-1.20.1-1.9.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/Orcz_0.87_1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/BOMD-Forge-1.20.1-1.1.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/morevanillashields-1.1.0-1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/swampier_swamps-1.20-4.0.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[34,)]]
+[14Dec2025 19:24:52.219] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.10-60.0.0/forge-1.21.10-60.0.0-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[14Dec2025 19:24:52.220] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/iter_rpg-0.7.0b-forge-1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.220] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/illagersweararmor-1.20.1-1.3.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2025 19:24:52.220] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.10-60.0.0/forge-1.21.10-60.0.0-server.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[14Dec2025 19:24:52.220] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/morevillagers-forge-1.20.1-5.0.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[14Dec2025 19:24:52.220] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.220] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.220] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/BloodAndMadness-Forge1.20.1-v2.1.5.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.221] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/netherdungeons-1.1.0-snapshot3a.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.221] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/BiomesOPlenty-1.20.1-18.0.0.592.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[45,)]]
+[14Dec2025 19:24:52.221] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/TaxCastlePillager+M.1.20.1+ForM.1.0.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.221] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/endrem_forge-5.2.3-R-1.20.X.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.221] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/justenoughbreeding-forge-1.20.x-1.2.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.221] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/HopoBetterRuinedPortals-[1.20-1.20.2]-1.3.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[14Dec2025 19:24:52.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.31_mc1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/forbidden_arcanus-1.20.1-2.2.6.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[14Dec2025 19:24:52.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.7.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/lionfishapi-1.9.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.222] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/Philips-Ruins1.20.1-4.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/L_Enders_Cataclysm-1.99.6-1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[36,)]]
+[14Dec2025 19:24:52.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[14Dec2025 19:24:52.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/SpartanShields-1.20.1-forge-3.1.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/brutalbosses-1.20.1-7.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[36,)]]
+[14Dec2025 19:24:52.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.16.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[14Dec2025 19:24:52.223] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/CerbonsApi-Forge-1.20.1-1.0.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.224] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/realmrpg_seadwellers_2.9.9_forge_1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.224] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/legendarymonsters-1.9.8 MC 1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.224] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/crittersandcompanions-1.20.1-2.1.6.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2025 19:24:52.224] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/endorium-forge-1.1.3.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[0,)]]
+[14Dec2025 19:24:52.224] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/SpartanWeaponry-1.20.1-forge-3.1.0-beta-1-all.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.225] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/mvs-4.1.2-1.20-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.225] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/architectury-9.2.14-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[14Dec2025 19:24:52.225] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/cupboard-1.20.1-2.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[36,)]]
+[14Dec2025 19:24:52.225] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/PuzzlesLib-v8.1.21-1.20.1-Forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.225] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/smallships-forge-1.20.1-2.0.0-b1.3.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[14Dec2025 19:24:52.225] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/fafafa/servidor_minecraft/mods/valhelsia_core-forge-1.20.1-1.1.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[45,)]]
+[14Dec2025 19:24:52.226] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[14Dec2025 19:24:52.226] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[14Dec2025 19:24:52.226] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[14Dec2025 19:24:52.228] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[14Dec2025 19:24:52.228] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service forge
+[14Dec2025 19:24:52.228] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service forge
+[14Dec2025 19:24:52.243] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[14Dec2025 19:24:52.244] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 60
+[14Dec2025 19:24:52.244] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[14Dec2025 19:24:52.245] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 60.0.0
+[14Dec2025 19:24:52.247] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[14Dec2025 19:24:52.247] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[14Dec2025 19:24:52.247] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[14Dec2025 19:24:52.255] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 150 mod requirements (124 mandatory, 26 optional)
+[14Dec2025 19:24:52.256] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 39 mod requirements missing (39 mandatory, 0 optional)
+[14Dec2025 19:24:52.257] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'minecraft', Requested by: 'cerbons_api', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'bosses_of_mass_destruction', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'realmrpg_demons', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'fossil', Expected range: '[1.20.1,1.20.2)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'seadwellers', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'taxva', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'netherdungeons', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'endrem', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'orcz', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'justenoughbreeding', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'mvs', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'spartanshields', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'puzzlesaccessapi', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'dungeonnowloading', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'jei', Expected range: '[1.20.1,1.20.2)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'curios', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'endreborn', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'realmrpg_skeletons', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'iter_rpg', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'spartanweaponry', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'morehitboxes', Expected range: '[1.20.1,1.20.2)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'integrated_api', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'taxcp', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'epicfight', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'betterskills', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'gravestone', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'philipsruins', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'morevillagers', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'ants_unleashed', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'swampier_swamps', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'ambientsounds', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'puzzleslib', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'travelersbackpack', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'born_in_chaos_v1', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'mirabilis', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'visualworkbench', Expected range: '[1.20.1,1.20.1]', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'morevanillashields', Expected range: '[1.20.1,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'creativecore', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+	Mod ID: 'minecraft', Requested by: 'valhelsia_furniture', Expected range: '[1.20,1.21)', Actual version: '1.21.10'
+[14Dec2025 19:24:52.320] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 42898 method mappings from methods.csv
+[14Dec2025 19:24:52.393] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 41695 field mappings from fields.csv
+[14Dec2025 19:24:52.420] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[14Dec2025 19:24:52.422] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[14Dec2025 19:24:52.422] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[14Dec2025 19:24:52.422] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[14Dec2025 19:24:52.422] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[14Dec2025 19:24:52.424] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[14Dec2025 19:24:52.424] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service forge
+[14Dec2025 19:24:52.433] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer FieldToMethodTransformer[className=net.minecraft.world.level.biome.Biome, fields={climateSettings=getModifiedClimateSettings, specialEffects=getModifiedSpecialEffects}] to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[14Dec2025 19:24:52.434] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer FieldToMethodTransformer[className=net.minecraft.world.level.block.FlowerPotBlock, fields={potted=getPotted}] to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[14Dec2025 19:24:52.434] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer FieldToMethodTransformer[className=net.minecraft.world.level.block.LiquidBlock, fields={fluid=getFluid}] to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[14Dec2025 19:24:52.434] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer FieldToMethodTransformer[className=net.minecraft.world.effect.MobEffectInstance, fields={effect=getEffect}] to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[14Dec2025 19:24:52.437] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer FieldToMethodTransformer[className=net.minecraft.world.item.BucketItem, fields={content=getFluid}] to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[14Dec2025 19:24:52.444] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner;} {} {V}
+[14Dec2025 19:24:52.444] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[14Dec2025 19:24:52.444] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[14Dec2025 19:24:52.444] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[14Dec2025 19:24:52.444] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[14Dec2025 19:24:52.444] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[14Dec2025 19:24:52.444] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[14Dec2025 19:24:52.444] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[14Dec2025 19:24:52.444] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[14Dec2025 19:24:52.445] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[14Dec2025 19:24:52.445] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[14Dec2025 19:24:52.445] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[14Dec2025 19:24:52.445] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[14Dec2025 19:24:52.445] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[14Dec2025 19:24:52.445] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[14Dec2025 19:24:52.445] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[14Dec2025 19:24:52.445] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[14Dec2025 19:24:52.445] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[14Dec2025 19:24:52.446] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[14Dec2025 19:24:52.446] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[14Dec2025 19:24:52.446] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[14Dec2025 19:24:52.446] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[14Dec2025 19:24:52.446] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer MethodRedirector[] to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[14Dec2025 19:24:52.446] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service forge
+[14Dec2025 19:24:52.482] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[14Dec2025 19:24:52.483] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[14Dec2025 19:24:52.483] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixin.synthetic)
+[14Dec2025 19:24:52.483] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixin.synthetic)
+[14Dec2025 19:24:52.483] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixin.synthetic)
+[14Dec2025 19:24:52.483] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixin.synthetic)
+[14Dec2025 19:24:52.483] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixin.synthetic)
+[14Dec2025 19:24:52.484] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]
+[14Dec2025 19:24:52.485] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[14Dec2025 19:24:52.486] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[14Dec2025 19:24:52.486] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[14Dec2025 19:24:52.486] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[14Dec2025 19:24:52.486] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[14Dec2025 19:24:52.486] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[14Dec2025 19:24:52.486] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.minecraftforge.forge)
+[14Dec2025 19:24:52.486] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.minecraftforge.forge)
+[14Dec2025 19:24:52.486] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.minecraftforge.forge)
+[14Dec2025 19:24:52.486] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.minecraftforge.forge)
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.minecraftforge.forge)
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.minecraftforge.forge)]
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mclib)
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mclib)
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mclib)
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mclib)
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mclib)
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mclib)]
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras)
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras)
+[14Dec2025 19:24:52.487] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras)
+[14Dec2025 19:24:52.488] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras)
+[14Dec2025 19:24:52.488] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras)
+[14Dec2025 19:24:52.488] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras)]
+[14Dec2025 19:24:52.488] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=SecureJarResource(mixinextras)
+[14Dec2025 19:24:52.501] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(MixinExtras)
+[14Dec2025 19:24:52.503] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(MixinExtras)
+[14Dec2025 19:24:52.504] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(MixinExtras)
+[14Dec2025 19:24:52.504] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(MixinExtras)
+[14Dec2025 19:24:52.505] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(MixinExtras)
+[14Dec2025 19:24:52.505] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(MixinExtras)]
+[14Dec2025 19:24:52.505] [main/DEBUG] [mixin/]: inject() running with 7 agents
+[14Dec2025 19:24:52.505] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[14Dec2025 19:24:52.505] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]
+[14Dec2025 19:24:52.506] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[14Dec2025 19:24:52.506] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.minecraftforge.forge)]
+[14Dec2025 19:24:52.506] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mclib)]
+[14Dec2025 19:24:52.506] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras)]
+[14Dec2025 19:24:52.506] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(MixinExtras)]
+[14Dec2025 19:24:52.506] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[14Dec2025 19:24:52.548] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[14Dec2025 19:24:52.549] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[14Dec2025 19:24:52.594] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1) is taking over from null
+[14Dec2025 19:24:52.650] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[14Dec2025 19:24:52.656] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[14Dec2025 19:24:52.657] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[14Dec2025 19:24:52.661] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[14Dec2025 19:24:52.662] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[14Dec2025 19:24:52.666] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[14Dec2025 19:24:52.694] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[14Dec2025 19:24:52.817] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[14Dec2025 19:24:52.819] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[14Dec2025 19:24:52.819] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[14Dec2025 19:24:53.093] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[14Dec2025 19:24:53.095] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[14Dec2025 19:24:53.103] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[14Dec2025 19:24:53.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[14Dec2025 19:24:53.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[14Dec2025 19:24:53.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[14Dec2025 19:24:53.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[14Dec2025 19:24:53.108] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[14Dec2025 19:24:53.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[14Dec2025 19:24:53.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[14Dec2025 19:24:53.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[14Dec2025 19:24:53.110] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[14Dec2025 19:24:53.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[14Dec2025 19:24:53.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[14Dec2025 19:24:53.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[14Dec2025 19:24:53.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[14Dec2025 19:24:53.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[14Dec2025 19:24:53.111] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[14Dec2025 19:24:53.112] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[14Dec2025 19:24:53.112] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[14Dec2025 19:24:53.114] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[14Dec2025 19:24:53.115] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[14Dec2025 19:24:53.115] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[14Dec2025 19:24:53.115] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[14Dec2025 19:24:53.115] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[14Dec2025 19:24:53.115] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[14Dec2025 19:24:53.115] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[14Dec2025 19:24:53.115] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[14Dec2025 19:24:53.116] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[14Dec2025 19:24:53.116] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[14Dec2025 19:24:53.116] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[14Dec2025 19:24:53.116] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[14Dec2025 19:24:53.116] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[14Dec2025 19:24:53.116] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[14Dec2025 19:24:53.116] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[14Dec2025 19:24:53.116] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[14Dec2025 19:24:53.117] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[14Dec2025 19:24:53.117] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[14Dec2025 19:24:53.117] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[14Dec2025 19:24:53.117] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[14Dec2025 19:24:53.117] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[14Dec2025 19:24:53.117] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[14Dec2025 19:24:53.117] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[14Dec2025 19:24:53.117] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[14Dec2025 19:24:53.118] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[14Dec2025 19:24:53.118] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[14Dec2025 19:24:53.118] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[14Dec2025 19:24:53.118] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[14Dec2025 19:24:53.119] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[14Dec2025 19:24:53.119] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[14Dec2025 19:24:53.119] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[14Dec2025 19:24:53.119] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[14Dec2025 19:24:53.119] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[14Dec2025 19:24:53.119] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[14Dec2025 19:24:53.119] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[14Dec2025 19:24:53.119] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[14Dec2025 19:24:53.119] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[14Dec2025 19:24:53.120] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[14Dec2025 19:24:53.121] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[14Dec2025 19:24:53.122] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[14Dec2025 19:24:53.122] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[14Dec2025 19:24:53.122] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[14Dec2025 19:24:53.122] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[14Dec2025 19:24:53.122] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[14Dec2025 19:24:53.122] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[14Dec2025 19:24:53.122] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[14Dec2025 19:24:53.122] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[14Dec2025 19:24:53.122] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[14Dec2025 19:24:53.123] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[14Dec2025 19:24:53.123] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[14Dec2025 19:24:53.123] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[14Dec2025 19:24:53.123] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[14Dec2025 19:24:53.123] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[14Dec2025 19:24:53.123] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[14Dec2025 19:24:53.123] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[14Dec2025 19:24:53.124] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[14Dec2025 19:24:53.124] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[14Dec2025 19:24:53.124] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[14Dec2025 19:24:53.124] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[14Dec2025 19:24:53.124] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[14Dec2025 19:24:53.124] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[14Dec2025 19:24:53.124] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[14Dec2025 19:24:53.125] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[14Dec2025 19:24:53.125] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[14Dec2025 19:24:53.125] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[14Dec2025 19:24:53.125] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[14Dec2025 19:24:53.125] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[14Dec2025 19:24:53.125] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[14Dec2025 19:24:53.125] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[14Dec2025 19:24:53.125] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[14Dec2025 19:24:53.125] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[14Dec2025 19:24:53.126] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[14Dec2025 19:24:53.126] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[14Dec2025 19:24:53.126] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[14Dec2025 19:24:53.126] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[14Dec2025 19:24:53.126] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[14Dec2025 19:24:53.126] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[14Dec2025 19:24:53.126] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[14Dec2025 19:24:53.126] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[14Dec2025 19:24:53.126] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[14Dec2025 19:24:53.127] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[14Dec2025 19:24:53.128] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[14Dec2025 19:24:53.128] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[14Dec2025 19:24:53.128] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[14Dec2025 19:24:53.128] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[14Dec2025 19:24:53.128] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[14Dec2025 19:24:53.128] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[14Dec2025 19:24:53.128] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[14Dec2025 19:24:53.128] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[14Dec2025 19:24:53.129] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[14Dec2025 19:24:53.129] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[14Dec2025 19:24:53.129] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[14Dec2025 19:24:53.129] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[14Dec2025 19:24:53.129] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[14Dec2025 19:24:53.129] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[14Dec2025 19:24:53.130] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[14Dec2025 19:24:53.131] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[14Dec2025 19:24:53.131] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[14Dec2025 19:24:53.132] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[14Dec2025 19:24:53.132] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[14Dec2025 19:24:53.132] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[14Dec2025 19:24:53.132] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[14Dec2025 19:24:53.132] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[14Dec2025 19:24:53.132] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[14Dec2025 19:24:53.132] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[14Dec2025 19:24:53.136] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[14Dec2025 19:24:53.136] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[14Dec2025 19:24:53.136] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[14Dec2025 19:24:53.136] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[14Dec2025 19:24:53.136] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[14Dec2025 19:24:53.137] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[14Dec2025 19:24:53.138] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[14Dec2025 19:24:53.138] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[14Dec2025 19:24:53.138] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[14Dec2025 19:24:53.138] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[14Dec2025 19:24:53.138] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[14Dec2025 19:24:53.138] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[14Dec2025 19:24:53.139] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[14Dec2025 19:24:53.139] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[14Dec2025 19:24:53.139] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[14Dec2025 19:24:53.139] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[14Dec2025 19:24:53.139] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[14Dec2025 19:24:53.139] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[14Dec2025 19:24:53.139] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[14Dec2025 19:24:53.139] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[14Dec2025 19:24:53.139] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[14Dec2025 19:24:53.140] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[14Dec2025 19:24:53.143] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[14Dec2025 19:24:53.143] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[14Dec2025 19:24:53.157] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[14Dec2025 19:24:53.175] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[14Dec2025 19:24:53.176] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[14Dec2025 19:24:53.364] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/EntityType.create
+[14Dec2025 19:24:55.294] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/animal/frog/Tadpole.lambda$ageUp$1
+[14Dec2025 19:24:56.169] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Spider.finalizeSpawn
+[14Dec2025 19:24:56.199] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Zombie.hurtServer
+[14Dec2025 19:24:56.200] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Zombie.finalizeSpawn
+[14Dec2025 19:24:56.200] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Zombie.lambda$convertVillagerToZombieVillager$4
+[14Dec2025 19:24:56.206] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/npc/Villager.getBreedOffspring
+[14Dec2025 19:24:56.207] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/npc/Villager.lambda$thunderHit$8
+[14Dec2025 19:24:56.214] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/ZombieVillager.lambda$finishConversion$2
+[14Dec2025 19:24:56.248] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal.performSpellCasting
+[14Dec2025 19:24:56.435] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/animal/horse/SkeletonTrapGoal.createHorse
+[14Dec2025 19:24:56.436] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/animal/horse/SkeletonTrapGoal.createSkeleton
+[14Dec2025 19:24:56.446] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Strider.spawnJockey
+[14Dec2025 19:24:57.367] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece.handleDataMarker
+[14Dec2025 19:24:57.370] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece.postProcess
+[14Dec2025 19:24:57.370] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece.spawnCat
+[14Dec2025 19:24:57.374] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece.spawnElder
+[14Dec2025 19:24:57.380] [main/DEBUG] [net.minecraftforge.forge.transformers.MethodRedirector/]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece.handleDataMarker
+[14Dec2025 19:24:57.889] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 7796
+[14Dec2025 19:24:57.906] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 4 threads for parallel mod-loading
+[14Dec2025 19:24:57.909] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §ecerbons_api§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:90) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoader$LazyInit.<clinit>(ModLoader.java:133) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoader.get(ModLoader.java:129) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at TRANSFORMER/net.minecraftforge.forge@60.0.0/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.21.10-60.0.0-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.Main.main(Main.java:132) ~[forge-1.21.10-60.0.0-server.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.10-60.0.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.10-60.0.0.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.10-60.0.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.10-60.0.0.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:101) [forge-1.21.10-60.0.0-shim.jar:2.1.8]
+[14Dec2025 19:24:57.942] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 7796
+[14Dec2025 19:24:57.944] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[14Dec2025 19:24:57.944] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[14Dec2025 19:24:57.944] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[14Dec2025 19:24:57.944] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[14Dec2025 19:24:57.944] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[14Dec2025 19:24:57.945] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[14Dec2025 19:24:57.945] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[14Dec2025 19:24:57.945] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[14Dec2025 19:24:57.945] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[14Dec2025 19:24:57.946] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[14Dec2025 19:24:57.946] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[14Dec2025 19:24:57.946] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[14Dec2025 19:24:57.946] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[14Dec2025 19:24:57.946] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[14Dec2025 19:24:57.946] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[14Dec2025 19:24:57.947] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[14Dec2025 19:24:57.947] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[14Dec2025 19:24:57.947] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[14Dec2025 19:24:57.947] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[14Dec2025 19:24:57.947] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[14Dec2025 19:24:57.947] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[14Dec2025 19:24:57.948] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[14Dec2025 19:24:57.948] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[14Dec2025 19:24:57.948] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[14Dec2025 19:24:57.948] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[14Dec2025 19:24:57.948] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[14Dec2025 19:24:57.948] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[14Dec2025 19:24:57.949] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[14Dec2025 19:24:57.949] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[14Dec2025 19:24:57.949] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[14Dec2025 19:24:57.949] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[14Dec2025 19:24:57.949] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[14Dec2025 19:24:57.949] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[14Dec2025 19:24:57.950] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[14Dec2025 19:24:57.950] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[14Dec2025 19:24:57.950] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[14Dec2025 19:24:57.950] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[14Dec2025 19:24:57.950] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[14Dec2025 19:24:57.951] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[14Dec2025 19:24:57.951] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[14Dec2025 19:24:57.951] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[14Dec2025 19:24:57.951] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[14Dec2025 19:24:57.951] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[14Dec2025 19:24:57.951] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[14Dec2025 19:24:57.951] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[14Dec2025 19:24:57.952] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[14Dec2025 19:24:57.952] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[14Dec2025 19:24:57.952] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[14Dec2025 19:24:57.953] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[14Dec2025 19:24:57.953] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[14Dec2025 19:24:57.953] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[14Dec2025 19:24:57.954] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[14Dec2025 19:24:57.954] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[14Dec2025 19:24:57.954] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[14Dec2025 19:24:57.954] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[14Dec2025 19:24:57.954] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[14Dec2025 19:24:57.954] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[14Dec2025 19:24:57.955] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[14Dec2025 19:24:57.955] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[14Dec2025 19:24:57.955] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[14Dec2025 19:24:57.955] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[14Dec2025 19:24:57.955] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[14Dec2025 19:24:57.955] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[14Dec2025 19:24:57.956] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[14Dec2025 19:24:57.956] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[14Dec2025 19:24:57.956] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[14Dec2025 19:24:57.956] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[14Dec2025 19:24:57.956] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[14Dec2025 19:24:57.956] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[14Dec2025 19:24:57.957] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[14Dec2025 19:24:57.957] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[14Dec2025 19:24:57.957] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[14Dec2025 19:24:57.957] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[14Dec2025 19:24:57.957] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[14Dec2025 19:24:57.957] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[14Dec2025 19:24:57.957] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[14Dec2025 19:24:57.958] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[14Dec2025 19:24:57.958] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[14Dec2025 19:24:57.958] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[14Dec2025 19:24:57.958] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[14Dec2025 19:24:57.958] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[14Dec2025 19:24:57.958] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[14Dec2025 19:24:57.959] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[14Dec2025 19:24:57.959] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[14Dec2025 19:24:57.959] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[14Dec2025 19:24:57.959] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[14Dec2025 19:24:57.959] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[14Dec2025 19:24:57.959] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[14Dec2025 19:24:57.960] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[14Dec2025 19:24:57.960] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[14Dec2025 19:24:57.960] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[14Dec2025 19:24:57.960] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[14Dec2025 19:24:57.961] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[14Dec2025 19:24:57.961] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[14Dec2025 19:24:57.961] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[14Dec2025 19:24:57.961] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[14Dec2025 19:24:57.961] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/level
+[14Dec2025 19:24:57.962] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[14Dec2025 19:24:57.962] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/type
+[14Dec2025 19:24:57.962] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[14Dec2025 19:24:57.962] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/ways_of_associativity
+[14Dec2025 19:24:57.962] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[14Dec2025 19:24:57.962] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/coherency_line_size
+[14Dec2025 19:24:57.963] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[14Dec2025 19:24:57.963] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index2/size
+[14Dec2025 19:24:57.963] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[14Dec2025 19:24:57.963] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/level
+[14Dec2025 19:24:57.963] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[14Dec2025 19:24:57.963] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/type
+[14Dec2025 19:24:57.964] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[14Dec2025 19:24:57.964] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/ways_of_associativity
+[14Dec2025 19:24:57.964] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[14Dec2025 19:24:57.964] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/coherency_line_size
+[14Dec2025 19:24:57.964] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[14Dec2025 19:24:57.964] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index0/size
+[14Dec2025 19:24:57.965] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[14Dec2025 19:24:57.965] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/level
+[14Dec2025 19:24:57.965] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[14Dec2025 19:24:57.965] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/type
+[14Dec2025 19:24:57.965] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[14Dec2025 19:24:57.965] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/ways_of_associativity
+[14Dec2025 19:24:57.965] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[14Dec2025 19:24:57.966] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/coherency_line_size
+[14Dec2025 19:24:57.966] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[14Dec2025 19:24:57.966] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index3/size
+[14Dec2025 19:24:57.966] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[14Dec2025 19:24:57.966] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/level
+[14Dec2025 19:24:57.966] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[14Dec2025 19:24:57.966] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/type
+[14Dec2025 19:24:57.967] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[14Dec2025 19:24:57.967] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/ways_of_associativity
+[14Dec2025 19:24:57.967] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[14Dec2025 19:24:57.967] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/coherency_line_size
+[14Dec2025 19:24:57.967] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[14Dec2025 19:24:57.967] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cache/index1/size
+[14Dec2025 19:24:57.968] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[14Dec2025 19:24:57.968] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[14Dec2025 19:24:57.968] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[14Dec2025 19:24:57.968] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[14Dec2025 19:24:57.968] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/level
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/type
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/ways_of_associativity
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/coherency_line_size
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[14Dec2025 19:24:57.969] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index2/size
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/level
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/type
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/ways_of_associativity
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/coherency_line_size
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index0/size
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[14Dec2025 19:24:57.970] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/level
+[14Dec2025 19:24:57.971] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[14Dec2025 19:24:57.971] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/type
+[14Dec2025 19:24:57.971] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[14Dec2025 19:24:57.971] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/ways_of_associativity
+[14Dec2025 19:24:57.971] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[14Dec2025 19:24:57.971] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/coherency_line_size
+[14Dec2025 19:24:57.971] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[14Dec2025 19:24:57.971] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index3/size
+[14Dec2025 19:24:57.972] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[14Dec2025 19:24:57.972] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/level
+[14Dec2025 19:24:57.972] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[14Dec2025 19:24:57.972] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/type
+[14Dec2025 19:24:57.972] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[14Dec2025 19:24:57.973] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/ways_of_associativity
+[14Dec2025 19:24:57.973] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[14Dec2025 19:24:57.973] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/coherency_line_size
+[14Dec2025 19:24:57.973] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[14Dec2025 19:24:57.973] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cache/index1/size
+[14Dec2025 19:24:57.974] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[14Dec2025 19:24:57.974] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[14Dec2025 19:24:57.984] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[14Dec2025 19:24:57.996] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[14Dec2025 19:24:57.997] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[14Dec2025 19:24:58.000] [main/ERROR] [net.minecraft.CrashReport/]: Negative index in crash report handler (21/23)
+[14Dec2025 19:24:58.035] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-12-14_19.24.58-fml.txt
+[14Dec2025 19:24:58.040] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §ecerbons_api§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ebosses_of_mass_destruction§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §erealmrpg_demons§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §efossil§r requires §6minecraft§r §o1.20.1 or above, and below 1.20.2§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eseadwellers§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §etaxva§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §enetherdungeons§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eendrem§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eorcz§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ejustenoughbreeding§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emvs§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §espartanshields§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §epuzzlesaccessapi§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §edungeonnowloading§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ejei§r requires §6minecraft§r §o1.20.1 or above, and below 1.20.2§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ecurios§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eendreborn§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §erealmrpg_skeletons§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eiter_rpg§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §espartanweaponry§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emorehitboxes§r requires §6minecraft§r §o1.20.1 or above, and below 1.20.2§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eintegrated_api§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §etaxcp§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eepicfight§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ebetterskills§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §egravestone§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ephilipsruins§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emorevillagers§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eants_unleashed§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eswampier_swamps§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eambientsounds§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §epuzzleslib§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §etravelersbackpack§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §eborn_in_chaos_v1§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emirabilis§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §evisualworkbench§r requires §6minecraft§r §o1.20.1§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §emorevanillashields§r requires §6minecraft§r §o1.20.1 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §ecreativecore§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10,
+	Mod §evalhelsia_furniture§r requires §6minecraft§r §o1.20 or above, and below 1.21§r
+§7Currently, §6minecraft§r§7 is §o1.21.10
+]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.10-60.0.0/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:155) ~[fmlcore-1.21.10-60.0.0.jar:1.0]
+	at TRANSFORMER/net.minecraftforge.forge@60.0.0/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.21.10-60.0.0-universal.jar:?]
+	at TRANSFORMER/minecraft@1.21.10/net.minecraft.server.Main.main(Main.java:132) ~[forge-1.21.10-60.0.0-server.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.10-60.0.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:96) ~[fmlloader-1.21.10-60.0.0.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.21.10-60.0.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:79) ~[fmlloader-1.21.10-60.0.0.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.4.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.4/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.4.jar!/:?]
+	at net.minecraftforge.bootstrap@2.1.7/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.8.jar!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.8.jar:2.1.8]
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.8.jar:2.1.8]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:101) [forge-1.21.10-60.0.0-shim.jar:2.1.8]
